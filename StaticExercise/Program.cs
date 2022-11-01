@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("The Celsius of 212F is : ");
+            Console.WriteLine(TempConverter.FahrenheitToCelsius(212));
+            Console.Write("The Fahrenheit of 100C is : ");
+            Console.WriteLine(TempConverter.CelsiusToFahrenheit(100));
         }
     }
 }
